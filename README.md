@@ -24,6 +24,10 @@ FastAccessControl Server is a high-performance, secure, pure-Python socket serve
 
 - Multiple workers and CPU affinity control on Linux servers: one core for each worker.
 
+| Example 1: | Example 2: | 
+| ------------------------------------- | ------------- | 
+|<img src="https://raw.githubusercontent.com/rabuchaim/fastaccesscontrol/refs/heads/main/screenshot01.png" width="600" />|<img src="https://raw.githubusercontent.com/rabuchaim/fastaccesscontrol/refs/heads/main/screenshot02.png" width="600" />| 
+
 ### Work-in-progress:
 
 1. Geo-based IP access control: block or allow access by country using a custom version of [GeoIP2Fast](https://github.com/rabuchaim/geoip2fast). Supports [GeoIP2Fast dat files](https://github.com/rabuchaim/geoip2fast/releases/tag/LATEST) (with automatic updates and 99.67% of coverage using only 25MB RAM) or any MMDB file from any geoip provider. 
